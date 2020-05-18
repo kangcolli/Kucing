@@ -111,11 +111,10 @@ def login():
 		menu() 
 	except (KeyError,IOError):
 		os.system('clear')
-		print logo
-       print 42*"\033[0;1m-"
-       print"\033[1;93mSilahkan Daftar fb baru dari google chrome\n"
-       print"\033[1;93mAgar tidak terkena chekpoint saat login\n"
-       print 42*"\033[0;1m-"
+                print 42*"\033[0;1m-"
+                print"\033[1;93mSilahkan Daftar fb baru dari google chrome\n"
+                print"\033[1;93mAgar tidak terkena chekpoint saat login\n"
+                print 42*"\033[0;1m-"
 		print('\033[1;96m[☆] \x1b[1;93mLOGIN AKUN FACEBOOK ANDA \x1b[1;96m[☆]' )
 		id = raw_input('\033[1;96m[+] \x1b[1;93mID/Email \x1b[1;91m: \x1b[1;92m')
 		pwd = raw_input('\033[1;96m[+] \x1b[1;93mPassword \x1b[1;91m: \x1b[1;92m')
