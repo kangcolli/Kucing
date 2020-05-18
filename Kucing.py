@@ -1,32 +1,3 @@
-
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@nawanfre17
-nawanfre17 /
-dark-elite-v1.1
-
-1
-0
-
-    0
-
-Code
-Issues 0
-Pull requests 0
-Actions
-Projects 0
-Wiki
-Security 0
-Insights
-
-    Settings
-
-dark-elite-v1.1/dark.py /
-@nawanfre17 nawanfre17 Update dark.py 8c032eb 15 minutes ago
-856 lines (809 sloc) 30.5 KB
 #!/usr/bin/python2
 # coding=utf-8
 
@@ -115,7 +86,7 @@ def loginSC():
 	os.system('xdg-open https://tatawirdat.blogspot.com')
         username = raw_input("\033[1;96m[*] \033[1;97mID \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
-	if username =="anak" and password =="binjai":
+	if username =="nawan" and password =="barus":
 		print"\033[1;96m[✓] \033[1;92mLogin success"
 		time.sleep(1)
 		loginSC()
