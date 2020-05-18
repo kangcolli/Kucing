@@ -82,12 +82,22 @@ vuln = "\033[32mVuln"
 
 def loginSC():
 	os.system('clear')
-	print"\033[1;97mSilahkan login Lisensi Scriptnya dulu Lae,kalau gak tau Lisensinya,silahkan download Lisensinya di website yang barusan di Alihkan Otomatis\n"
+        print 42*"\033[32;1m="
+	print"\033[1;97mLogin Lisensi Scriptnya dulu bosku\n"
+        print"\033[1;97mJika tidak tau Lisensinya,silahkan dowmload\n"
+        print"\033[1;97mDi website yang barusan di alihkan Otomatis\n"
+        print 42*"\033[32;1m="
+        print"\033[1;97mLisensinya ini di update 3hari sekali, terimakasih\n"
+        print"\033[1;97mJANGGAN LUPA SUBSCRIBE YAUTUBE SAYA, NAWAN XT\n"
+        print 42*"\033[32;1m="
 	os.system('xdg-open https://tatawirdat.blogspot.com')
         username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
-	if username =="anak" and password =="binjai":
+	if username =="nawan" and password =="barus":
+
+        else:
 		print"\033[1;96m[✓] \033[1;92mLogin success"
+                os.system('xdg-open https://www.youtube.com/watch?v=eXbezHlw61o')
 		time.sleep(1)
 		loginSC()
 	else:
@@ -852,5 +862,5 @@ def clone_dari_file():
 	
        
 		
-if __username__ == '__password__':
+if __nama__ == '__main__':
        loginSC()
