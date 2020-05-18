@@ -94,8 +94,6 @@ def loginSC():
         username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
 	if username =="nawan" and password =="barus":
-
-        else:
 		print"\033[1;96m[✓] \033[1;92mLogin success"
                 os.system('xdg-open https://www.youtube.com/watch?v=eXbezHlw61o')
 		time.sleep(1)
