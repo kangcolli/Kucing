@@ -97,12 +97,12 @@ def loginSC():
 		print"\033[1;96m[✓] \033[1;92mLogin success"
                 os.system('xdg-open ')
 		time.sleep(1)
-		loginSC()
+		login()
 	else:
 		print"\033[1;96m[!] \033[1;91mSalah!!"
 		os.system('xdg-open ')
                 time.sleep(1)
-                LoginSC()
+                Login()
 
 def login():
 	os.system('clear')
