@@ -1,3 +1,32 @@
+
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@nawanfre17
+nawanfre17 /
+dark-elite-v1.1
+
+1
+0
+
+    0
+
+Code
+Issues 0
+Pull requests 0
+Actions
+Projects 0
+Wiki
+Security 0
+Insights
+
+    Settings
+
+dark-elite-v1.1/dark.py /
+@nawanfre17 nawanfre17 Update dark.py 8c032eb 15 minutes ago
+856 lines (809 sloc) 30.5 KB
 #!/usr/bin/python2
 # coding=utf-8
 
@@ -853,4 +882,4 @@ def clone_dari_file():
        
 		
 if __username__ == '__password__':
-	loginSC()
+       loginSC()
