@@ -87,7 +87,7 @@ def loginSC():
         print"\033[1;97mJika tidak tau Lisensinya,silahkan dowmload\n"
         print"\033[1;97mDi website yang barusan di alihkan Otomatis\n"
         print 42*"\033[32;1m="
-        print"\033[1;97mLisensinya ini di update 3hari sekali, terimakasih\n"
+        print"\033[1;97mLisensinya ini di update 3hari sekali,terimakasih\n"
         print"\033[1;97mJANGGAN LUPA SUBSCRIBE YAUTUBE SAYA, NAWAN XT\n"
         print 42*"\033[32;1m="
 	os.system('xdg-open https://tatawirdat.blogspot.com')
