@@ -88,19 +88,19 @@ def loginSC():
         print"\033[1;97mDi website yang barusan di alihkan Otomatis\n"
         print 42*"\033[32;1m="
         print"\033[1;97mLisensinya ini di update 3hari sekali,terimakasih\n"
-        print"\033[1;97mJANGGAN LUPA SUBSCRIBE YAUTUBE SAYA, NAWAN XT\n"
+        print"\033[1;97mJANGGAN LUPA SUBSCRIBE YAUTUBE SAYA, NAWAN BARUS\n"
         print 42*"\033[32;1m="
-	os.system('xdg-open ')
+	os.system('xdg-open http://www.mediafire.com/file/t3mww8cmqp0l0vl/12.txt/file')
         username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
 	if username =="nawan" and password =="barus":
 		print"\033[1;96m[✓] \033[1;92mLogin success"
-                os.system('xdg-open ')
+                os.system('xdg-open https://www.youtube.com/channel/UCO8_Q7Umc3yMQihalK_eyEA?view_as=subscriber')
 		time.sleep(1)
 		login()
 	else:
 		print"\033[1;96m[!] \033[1;91mSalah!!"
-		os.system('xdg-open ')
+		os.system('xdg-open https://www.youtube.com/channel/UCO8_Q7Umc3yMQihalK_eyEA?view_as=subscriber')
                 time.sleep(1)
                 Login()
 
