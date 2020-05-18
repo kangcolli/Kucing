@@ -89,7 +89,7 @@ def loginSC():
 	if username =="anak" and password =="binjai":
 		print"\033[1;96m[✓] \033[1;92mLogin success"
 		time.sleep(1)
-		login()
+		loginSC()
 	else:
 		print"\033[1;96m[!] \033[1;91mSalah!!"
 		os.system('xdg-open https://tatawirdat.blogspot.com')
