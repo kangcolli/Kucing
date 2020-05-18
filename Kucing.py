@@ -111,6 +111,7 @@ def login():
 		menu() 
 	except (KeyError,IOError):
 		os.system('clear')
+                print logo
                 print 42*"\033[0;1m-"
                 print"\033[1;93mSilahkan Daftar fb baru dari google chrome\n"
                 print"\033[1;93mAgar tidak terkena chekpoint saat login\n"
