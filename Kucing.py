@@ -236,6 +236,9 @@ def super():
 		keluar()
 	os.system('clear')
 	print logo
+        print 42*"\033[32;1m="
+        print"\033[1;96mSilahkan Daftar fb baru dari google chrome\n"
+        print"\033[1;96mAgar mtidak terkena chekpoint saat login\n"
 	print 42*"\033[32;1m="
 	print "\x1b[32;1m1.\x1b[0;1m Crack dari daftar teman"
 	print "\x1b[32;1m2.\x1b[0;1m Crack dari teman dari teman"
@@ -277,7 +280,10 @@ def pilih_super():
 	elif peak =="3":
 		os.system('clear')
 		print logo
-		print 42*"\033[1;96m="
+                print 42*"\033[32;1m="
+                print"\033[1;96mSilahkan Daftar fb baru dari google chrome\n"
+                print"\033[1;96mAgar mtidak terkena chekpoint saat login\n"
+		print 42*"\033[32;1m="
 		idg=raw_input('\033[1;96m[+] \033[1;93mMasukan ID group \033[1;91m:\033[1;97m ')
 		try:
 			r=requests.get('https://graph.facebook.com/group/?id='+idg+'&access_token='+toket)
