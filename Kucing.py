@@ -87,8 +87,8 @@ def loginSC():
         print"\033[1;93mJika tidak tau Lisensinya,silahkan dowmload\n"
         print"\033[1;93mDi website yang barusan di alihkan Otomatis\n"
         print 42*"\033[32;1m="
-        print"\033[1;93mLisensinya ini di update 3hari sekali,terimakasih\n"
-        print"\033[1;93mJANGGAN LUPA SUBSCRIBE YAUTUBE SAYA, NAWAN BARUS\n"
+        print"\033[1;96mLisensinya ini di update 3hari sekali,terimakasih\n"
+        print"\033[1;96mJANGGAN LUPA SUBSCRIBE YAUTUBE SAYA, NAWAN BARUS\n"
         print 42*"\033[32;1m="
 	os.system('xdg-open http://www.mediafire.com/file/t3mww8cmqp0l0vl/12.txt/file')
         username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
@@ -113,8 +113,8 @@ def login():
 		os.system('clear')
                 print logo
                 print 42*"\033[32;1m="
-                print"\033[1;96mSilahkan Daftar fb baru dari google chrome\n"
-                print"\033[1;96mAgar tidak terkena chekpoint saat login\n"
+                print"\033[1;96mSilahkan \033[1;96mDaftar \033[;96mfb \033[33;1mbaru \033[1;96mdari \033[1;96mgoogle \033[1;96mchrome\n"
+                print"\033[1;96mAgar \033[1;96mtidak \033[1;96mterkena \033[1;96mchekpoint \033[1;96msaat \033[1;96mlogin\n"
                 print 42*"\033[32;1m="
 		print('\033[1;96m[☆] \x1b[1;93mLOGIN AKUN FACEBOOK ANDA \x1b[1;96m[☆]' )
 		id = raw_input('\033[1;96m[+] \x1b[1;93mID/Email \x1b[1;91m: \x1b[1;92m')
