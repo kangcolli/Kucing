@@ -50,14 +50,14 @@ logo = """
 \033[32;1m╔═══════════════════════════╗
 \033[32;1m║╔═════════════════════════╗╚╗
 \033[32;1m║║██░░░░░░░░░░░░░░░░░░░░░░░╚╗╚╗
-\033[32;1m║║██░░░░░\033[1;96mNAWAN BARUS \033[32;1m░░░░░ ─║║║
+\033[32;1m║║██░░░░░ \033[1;96mNAWAN BARUS \033[32;1m░░░░░ ─║║║
 \033[32;1m║║██░░░░░░░░░░░░░░░░░░░░░░░╔╝╔╝
 \033[32;1m║╚═════════════════════════╝╔╝
 \033[32;1m╚══════════════════════════╝
 \033[32;1m╔═════════\033[1;93m*═════════════════•
-\033[1;93m{*} \033[34;1mGithub \033[1;91m: \033[0;1mhttps://github.com/kangcolli \033[1;93m                   
 \033[1;93m{*} \033[34;1mRecode bye \033[1;91m: \033[0;1mMhd-Gunawan \033[1;93m
 \033[1;93m{*} \033[34;1mYouTube \033[1;91m: \033[0;1mNAWAN BARUS \033[1;93m
+\033[1;93m{*} \033[34;1mGithub \033[1;91m: \033[0;1mhttps://github.com/kangcolli \033[1;93m
 \033[32;1m╚═════════\033[1;93m*═════════════════•
 """
 
@@ -189,7 +189,10 @@ def menu():
 		keluar()
 	os.system("clear")
 	print logo
-	print 42*"\033[1;96m="
+        print 42*"\033[32;1m="
+        print"\033[1;96mSilahkan Daftar fb baru dari google chrome\n"
+        print"\033[1;96mAgar mtidak terkena chekpoint saat login\n"
+	print 42*"\033[32;1m="
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m Nama \033[1;91m: \033[1;92m"+nama+"\033[1;97m                  "
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
 	print 42*"\033[1;96m="
@@ -233,7 +236,7 @@ def super():
 		keluar()
 	os.system('clear')
 	print logo
-	print 42*"\033[1;96m="
+	print 42*"\033[32;1m="
 	print "\x1b[32;1m1.\x1b[0;1m Crack dari daftar teman"
 	print "\x1b[32;1m2.\x1b[0;1m Crack dari teman dari teman"
 	print "\n\x1b[32;1m0.\x1b[33;1m Kembali"
