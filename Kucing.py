@@ -54,11 +54,11 @@ logo = """
 \033[32;1m║║██░░░░░░░░░░░░░░░░░░░░░░░╔╝╔╝
 \033[32;1m║╚═════════════════════════╝╔╝
 \033[32;1m╚══════════════════════════╝
-\033[32;1m╔═════════════\033[1;93m*═══════════════════════════• 
-\033[1;93m{*} \033[34;1mRecode bye \033[1;91m: \033[0;1mGUNAWAN ✓                \033[1;93m•
-\033[1;93m{*} \033[34;1mYouTube \033[1;91m: \033[0;1mNAWAN BARUS ✓               \033[1;93m•
-\033[1;93m{*} \033[34;1mGithub \033[1;91m: \033[0;1mhttps://github.com/kangcolli \033[1;93m•
-\033[32;1m╚═════════════\033[1;93m*═══════════════════════════•
+\033[32;1m╔═══════════\033[1;93m*═══════════════════════• 
+\033[1;93m{*} \033[34;1mRecode bye \033[1;91m: \033[0;1mGUNAWAN ✓                \033[1;93m
+\033[1;93m{*} \033[34;1mYouTube \033[1;91m: \033[0;1mNAWAN BARUS ✓               \033[1;93m
+\033[1;93m{*} \033[34;1mGithub \033[1;91m: \033[0;1mhttps://github.com/kangcolli \033[1;93m
+\033[32;1m╚═══════════\033[1;93m*═══════════════════════•
 """
 
 
@@ -89,7 +89,7 @@ def loginSC():
         print"\033[1;96mLisensinya ini di update 3hari sekali,terimakasih\n"
         print"\033[1;96mJANGGAN LUPA SUBSCRIBE YAUTUBE SAYA, NAWAN BARUS\n"
         print 42*"\033[32;1m="
-	os.system('xdg-open http://www.mediafire.com/file/t3mww8cmqp0l0vl/12.txt/file')
+	os.system('xdg-open https://semawur.com/1PF2vOrjYle')
         username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
 	if username =="nawan" and password =="barus":
