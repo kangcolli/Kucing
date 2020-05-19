@@ -111,7 +111,7 @@ def login():
 		os.system('clear')
                 print logo
                 print 42*"\033[32;1m="
-                print"\033[1;96mSilahkan \033[1;96mDaftar \033[;96mfb \033[33;1mbaru \033[1;96mdari \033[1;96mgoogle \033[1;96mchrome\n"
+                print"\033[1;96mSilahkan \033[1;96mDaftar \033[1;96mfb \033[1;96mbaru \033[1;96mdari \033[1;96mgoogle \033[1;96mchrome\n"
                 print"\033[1;96mAgar \033[1;96mtidak \033[1;96mterkena \033[1;96mchekpoint \033[1;96msaat \033[1;96mlogin\n"
                 print 42*"\033[32;1m="
 		print('\033[1;96m[☆] \x1b[1;93mLOGIN AKUN FACEBOOK ANDA \x1b[1;96m[☆]' )
