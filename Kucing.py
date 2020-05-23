@@ -82,12 +82,12 @@ vuln = "\033[32mVuln"
 def loginSC():
 	os.system('clear')
         print 42*"\033[32;1m="
-	print"\033[1;93mLogin Lisensi Scriptnya dulu bosku\n"
-        print"\033[1;93mJika tidak tau Lisensinya,silahkan dowmload\n"
-        print"\033[1;93mDi website yang barusan di alihkan Otomatis\n"
+	print"\033[1;93mLogin Lisensi Scriptnya dulu bosku "
+        print"\033[1;93mJika tidak tau Lisensinya,silahkan dowmload "
+        print"\033[1;93mDi website yang barusan di alihkan Otomatis "
         print 42*"\033[32;1m="
-        print"\033[1;96mLisensinya ini di update 3hari sekali,terimakasih\n"
-        print"\033[1;96mJANGGAN LUPA SUBSCRIBE YAUTUBE SAYA, NAWAN BARUS\n"
+        print"\033[1;96mLisensinya ini di update 3hari sekali,terimakasih "
+        print"\033[1;96mJANGGAN LUPA SUBSCRIBE YAUTUBE SAYA, NAWAN BARUS "
         print 42*"\033[32;1m="
 	os.system('xdg-open https://semawur.com/1PF2vOrjYle')
         username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
