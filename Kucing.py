@@ -81,14 +81,14 @@ vuln = "\033[32mVuln"
 
 def loginSC():
 	os.system('clear')
-        print 42*"\033[32;1m="
-	print"\033[1;93mLogin Lisensi Scriptnya dulu bosku "
-        print"\033[1;93mJika tidak tau Lisensinya,silahkan dowmload "
-        print"\033[1;93mDi website yang barusan di alihkan Otomatis "
-        print 42*"\033[32;1m="
-        print"\033[1;96mLisensinya ini di update 3hari sekali,terimakasih "
-        print"\033[1;96mJANGGAN LUPA SUBSCRIBE YAUTUBE SAYA, NAWAN BARUS "
-        print 42*"\033[32;1m="
+        print 42*"\033[32;1m=\n"
+	print"\033[1;93mLogin Lisensi Scriptnya dulu bosku\n"
+        print"\033[1;93mJika tidak tau Lisensinya,silahkan dowmload\n"
+        print"\033[1;93mDi website yang barusan di alihkan Otomatis\n"
+        print 42*"\033[32;1m=\n"
+        print"\033[1;96mLisensinya ini di update 3hari sekali,terimakasih\n"
+        print"\033[1;96mJANGGAN LUPA SUBSCRIBE YAUTUBE SAYA, NAWAN BARUS\n"
+        print 42*"\033[32;1m=\n"
 	os.system('xdg-open https://semawur.com/1PF2vOrjYle')
         username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
@@ -190,9 +190,6 @@ def menu():
 	os.system("clear")
 	print logo
         print 42*"\033[32;1m="
-        print"\033[1;96mSilahkan Daftar fb baru dari google chrome "
-        print"\033[1;93mAgar tidak terkena chekpoint saat login "
-	print 42*"\033[32;1m="
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m Nama \033[1;91m: \033[1;92m"+nama+"\033[1;97m                  "
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
 	print 42*"\033[1;96m="
@@ -237,11 +234,8 @@ def super():
 	os.system('clear')
 	print logo
         print 42*"\033[32;1m="
-        print"\033[1;96mSilahkan Daftar fb baru dari google chrome\n"
-        print"\033[1;96mAgar mtidak terkena chekpoint saat login\n"
-	print 42*"\033[32;1m="
 	print "\x1b[32;1m1.\x1b[0;1m Crack dari daftar teman"
-	print "\x1b[32;1m2.\x1b[0;1m Crack dari teman dari teman"
+	print "\x1b[32;1m2.\x1b[0;1m Crack dari teman dari teman ✓"
 	print "\n\x1b[32;1m0.\x1b[33;1m Kembali"
 	pilih_super()
 
