@@ -111,10 +111,10 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
                 print logo
-                print 42*"\033[32;1m="
-                print"\033[1;96mSilahkan \033[1;96mDaftar \033[1;96mfb \033[1;96mbaru \033[1;96mdari \033[1;96mgoogle \033[1;96mchrome\n"
-                print"\033[1;96mAgar \033[1;96mtidak \033[1;96mterkena \033[1;96mchekpoint \033[1;96msaat \033[1;96mlogin\n"
-                print 42*"\033[32;1m="
+                print 42*"\033[32;1m= "
+                print"\033[1;93mSilahkan Daftar FB baru dari google chrome "
+                print"\033[1;93mAgar tidak terkena chekpoint saat login "
+                print 42*"\033[32;1m= "
 		print('\033[1;96m[☆] \x1b[1;93mLOGIN AKUN FACEBOOK ANDA \x1b[1;96m[☆]' )
 		id = raw_input('\033[1;96m[+] \x1b[1;93mID/Email \x1b[1;91m: \x1b[1;92m')
 		pwd = raw_input('\033[1;96m[+] \x1b[1;93mPassword \x1b[1;91m: \x1b[1;92m')
@@ -191,7 +191,7 @@ def menu():
 	print logo
         print 42*"\033[32;1m="
         print"\033[1;96mSilahkan Daftar fb baru dari google chrome "
-        print"\033[1;96mAgar mtidak terkena chekpoint saat login "
+        print"\033[1;93mAgar tidak terkena chekpoint saat login "
 	print 42*"\033[32;1m="
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m Nama \033[1;91m: \033[1;92m"+nama+"\033[1;97m                  "
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
