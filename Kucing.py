@@ -190,8 +190,8 @@ def menu():
 	os.system("clear")
 	print logo
         print 42*"\033[32;1m="
-        print"\033[1;96mSilahkan Daftar fb baru dari google chrome\n"
-        print"\033[1;96mAgar mtidak terkena chekpoint saat login\n"
+        print"\033[1;96mSilahkan Daftar fb baru dari google chrome"
+        print"\033[1;96mAgar mtidak terkena chekpoint saat login"
 	print 42*"\033[32;1m="
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m Nama \033[1;91m: \033[1;92m"+nama+"\033[1;97m                  "
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
